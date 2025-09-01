@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Test Data & Reports
+test_data/
+
+# Local files
+*.xlsx
+*.csv
+
+# IDE files
+.vscode/
+
+# Session files
+.session/
