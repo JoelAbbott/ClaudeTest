@@ -5,7 +5,7 @@
 This document serves as the single source of truth for Claude Code when interacting with this codebase. The goal is to develop a robust, enterprise-grade data validation application using the `pandas` library, designed to address common data governance tasks. The application will feature a command-line interface (CLI) driven by explicit `/commands` and maintain session state for comprehensive reporting.
 
 ### Core Functionality
-The app will address real-world data reconciliation challenges [5]. It will validate data types, value ranges, regex patterns, perform cross-column validation, check referential integrity, and handle inconsistent data entries and missing values.
+The app will address real-world data reconciliation challenges. It will validate data types, value ranges, regex patterns, perform cross-column validation, check referential integrity, and handle inconsistent data entries and missing values.
 
 ### Input & Output Specifications
 *   **Input**: Multiple Excel (.xlsx) and CSV (.csv) files containing deliberate "bad data" (e.g., missing values, inconsistent naming, incorrect data types, duplicate rows, trailing spaces, case sensitivity issues) [7].
